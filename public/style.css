@@ -135,3 +135,17 @@ body {
   margin-left: -10px;
   color: #62bfe2;
 }
+
+@media only screen and (max-width: 600px) {
+  .login-form {
+    width: 100%;
+  }
+
+  .lorem {
+    text-align: center;
+  }
+  
+  .login-img {
+    display: none;
+  }
+}
